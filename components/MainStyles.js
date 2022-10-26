@@ -1,39 +1,52 @@
 module.exports = {
-    mainScreen : {
-      // backgroundColor: "black",
-        marginTop: 10,
-        width: "100%",
-        height: "100%",
-        display : "flex",
-        alignItems: "center",
-        flexDirection : "column"
-
-    },
-    mainScreenDisplay:{
-        backgroundColor: "red",
-        elevation : 10,
-        borderRadius : 10,
-        width : '95%',
-        padding :10
-       
-    },
-    mainScreenText:{
-        fontSize :50,
-        textAlign : 'right'
-    },
-    mainScreenKeypad:{
-        width : '100%',
-        height: '70%',
-        display : 'flex'
-    },
-    keypadRow:{
-        display : 'flex',
-        flexDirection : "row",
-        width : '100%',
-        justifyContent : 'space-between',
-        alugnItems : 'center',
-        padding : 10
-        
-        
-    },
-}
+  mainScreen: {
+    backgroundColor: '#fff',
+    marginTop: 10,
+    width: '100%',
+    height: '100%',
+    display: 'flex',
+    alignItems: 'center',
+    flexDirection: 'column',
+  },
+  mainScreenDisplay: {
+    backgroundColor: '#fff',
+    elevation: 10,
+    borderRadius: 10,
+    width: '95%',
+    padding: 10,
+  },
+  mainScreenText: {
+    fontSize: 50,
+    textAlign: 'right',
+  },
+  mainScreenKeypad: {
+    width: '100%',
+    height: '70%',
+    display: 'flex',
+    backgroundColor: '#fff',
+    marginTop: 10,
+  },
+  keypadRow: {
+    display: 'flex',
+    flexDirection: 'row',
+    width: '100%',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    padding: 5,
+  },
+  buttonMain: {
+    width: 80,
+    height: 80,
+    backgroundColor: '#fff',
+    elevation: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'hidden',
+    borderRadius: 20,
+  },
+  buttonText: {
+    color: 'black',
+    fontSize: 30,
+    fontWeight: 'bold',
+  },
+};
