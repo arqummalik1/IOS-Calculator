@@ -10,7 +10,7 @@ module.exports = {
   },
   mainScreenDisplay: {
     backgroundColor: '#fff',
-    elevation: 10,
+    elevation: 5,
     borderRadius: 10,
     width: '95%',
     padding: 10,
@@ -21,7 +21,7 @@ module.exports = {
   },
   mainScreenKeypad: {
     width: '100%',
-    height: '70%',
+    height: '60%',
     display: 'flex',
     backgroundColor: '#fff',
     marginTop: 10,
