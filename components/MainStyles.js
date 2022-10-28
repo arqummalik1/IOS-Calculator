@@ -10,7 +10,7 @@ module.exports = {
   },
   mainScreenDisplay: {
     backgroundColor: '#fff',
-    elevation: 5,
+    elevation: 10,
     borderRadius: 10,
     width: '95%',
     padding: 10,
@@ -38,7 +38,7 @@ module.exports = {
     width: 80,
     height: 80,
     backgroundColor: '#fff',
-    elevation: 10,
+   // elevation: 10,
     alignItems: 'center',
     justifyContent: 'center',
     overflow: 'hidden',

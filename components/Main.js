@@ -226,7 +226,7 @@ const Main = () => {
           </TouchableOpacity>
           <TouchableOpacity onPress={() => handlePress('back')}>
             <View style={styles.buttonMain}>
-              <Text style={styles.buttonText}>Back</Text>
+              <Text style={styles.buttonText}>{`<`}</Text>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => handlePress('=')}>
