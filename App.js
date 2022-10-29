@@ -12,7 +12,7 @@ const App = () => {
   }, 2000);
   return (
     <View style = {styles.container}>
-     {isLoaded ? <Main/>: <Intro/>}
+     {isLoaded ? <Intro/>: <Intro/>}
     </View>
   );
 };

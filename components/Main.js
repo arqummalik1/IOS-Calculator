@@ -113,22 +113,22 @@ const Main = () => {
 
         <View style={styles.keypadRow}>
           <TouchableOpacity onPress={() => handlePress('AC')}>
-            <View style={styles.buttonMain}>
-              <Text style={styles.buttonText}>AC</Text>
+            <View style={styles.buttonMainTop}>
+              <Text style={styles.buttonTextTop}>AC</Text>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => handlePress('( )')}>
-            <View style={styles.buttonMain}>
-              <Text style={styles.buttonText}>( )</Text>
+            <View style={styles.buttonMainTop}>
+              <Text style={styles.buttonTextTop}>( )</Text>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => handlePress('%')}>
-            <View style={styles.buttonMain}>
-              <Text style={styles.buttonText}>%</Text>
+            <View style={styles.buttonMainTop}>
+              <Text style={styles.buttonTextTop}>%</Text>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => handlePress('/')}>
-            <View style={styles.buttonMain}>
+            <View style={styles.buttonMainColor}>
               <Text style={styles.buttonText}>/</Text>
             </View>
           </TouchableOpacity>
@@ -154,7 +154,7 @@ const Main = () => {
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => handlePress('*')}>
-            <View style={styles.buttonMain}>
+            <View style={styles.buttonMainColor}>
               <Text style={styles.buttonText}>*</Text>
             </View>
           </TouchableOpacity>
@@ -179,7 +179,7 @@ const Main = () => {
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => handlePress('-')}>
-            <View style={styles.buttonMain}>
+            <View style={styles.buttonMainColor}>
               <Text style={styles.buttonText}>-</Text>
             </View>
           </TouchableOpacity>
@@ -204,7 +204,7 @@ const Main = () => {
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => handlePress('+')}>
-            <View style={styles.buttonMain}>
+            <View style={styles.buttonMainColor}>
               <Text style={styles.buttonText}>+</Text>
             </View>
           </TouchableOpacity>
@@ -230,7 +230,7 @@ const Main = () => {
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => handlePress('=')}>
-            <View style={styles.buttonMain}>
+            <View style={styles.buttonMainColor}>
               <Text style={styles.buttonText}>=</Text>
             </View>
           </TouchableOpacity>
