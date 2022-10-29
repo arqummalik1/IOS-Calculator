@@ -18,8 +18,8 @@ module.exports = {
   mainScreenText: {
     fontSize: 80,
     textAlign: 'right',
-    color : "#fff",
-    fontWeight : "300"
+    color: '#fff',
+    fontWeight: '300',
   },
   mainScreenKeypad: {
     width: '100%',
@@ -40,7 +40,7 @@ module.exports = {
     width: 80,
     height: 80,
     backgroundColor: '#333333',
-   // elevation: 10,
+    // elevation: 10,
     alignItems: 'center',
     justifyContent: 'center',
     overflow: 'hidden',
@@ -50,28 +50,28 @@ module.exports = {
     color: '#fff',
     fontSize: 35,
   },
-  buttonMainColor:{
+  buttonMainColor: {
     width: 80,
     height: 80,
     backgroundColor: '#ff9E0A',
-   // elevation: 10,
+    // elevation: 10,
     alignItems: 'center',
     justifyContent: 'center',
     overflow: 'hidden',
     borderRadius: 50,
   },
-  buttonMainTop:{
+  buttonMainTop: {
     width: 80,
     height: 80,
     backgroundColor: '#A5A5A5',
-   // elevation: 10,
+    // elevation: 10,
     alignItems: 'center',
     justifyContent: 'center',
     overflow: 'hidden',
     borderRadius: 50,
   },
-  buttonTextTop:{
+  buttonTextTop: {
     color: '#000',
     fontSize: 30,
-  }
+  },
 };

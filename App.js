@@ -9,10 +9,10 @@ const App = () => {
 
   setTimeout(() => {
     setisLoaded(true);
-  }, 2000);
+  }, 1000);
   return (
     <View style = {styles.container}>
-     {isLoaded ? <Intro/>: <Intro/>}
+     {isLoaded ? <Main/>: <Intro/>}
     </View>
   );
 };
