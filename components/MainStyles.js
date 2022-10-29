@@ -19,11 +19,11 @@ module.exports = {
     fontSize: 80,
     textAlign: 'right',
     color: '#fff',
-    fontWeight: '300',
+    fontWeight: '200',
   },
   mainScreenKeypad: {
     width: '100%',
-    height: '55%',
+    height: '60%',
     display: 'flex',
     backgroundColor: '#00000',
     marginTop: 10,
